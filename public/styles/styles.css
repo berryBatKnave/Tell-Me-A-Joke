@@ -1,0 +1,50 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.container h1{
+    font-weight: 700;
+    font-size: 20px;
+    padding : 10px 20px; 
+}
+
+.choice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice button{
+    padding :5px;
+    cursor: pointer;
+    margin : 10px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.choice .yes{
+    background-color: rgb(255, 255, 174);
+    border-radius: 0.5rem;
+}
+
+.choice .no{
+    background-color: rgb(255, 176, 176);
+    border-radius: 0.5rem;
+}
+

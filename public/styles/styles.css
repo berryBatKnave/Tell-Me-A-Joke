@@ -16,6 +16,8 @@ body{
 .container{
     background-color: white;
     border-radius: 0.5rem;
+    text-align: center;
+    max-width: 500px;
 }
 
 .container h1{
@@ -48,3 +50,23 @@ body{
     border-radius: 0.5rem;
 }
 
+.not-in-mood{
+    margin : 10px;
+    padding : 5px;
+    background-color: rgb(255, 255, 174);
+    border-radius: 0.5rem;
+}
+
+.form-select{
+    padding:5px;
+    margin : 10px;
+    border-radius: 0.5rem;
+}
+
+.form-submit{
+    padding :5px;
+    border-radius: 0.5rem;
+    width : 50px;
+    background-color: rgb(255, 255, 174);
+    cursor: pointer;
+}
